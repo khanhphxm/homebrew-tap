@@ -2,17 +2,17 @@
 class Turntable < Formula
   desc "Lightweight native Spotify player"
   homepage "https://github.com/khanhphxm/turntable"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_linux do
     on_intel do
       url "https://github.com/khanhphxm/turntable/releases/download/v#{version}/turntable-#{version}-linux-x86_64.tar.gz"
-      sha256 "0e2d4cdc8c543e2ab6b91cc7a59d52f212c5b88bced726320444721e256eafb0"
+      sha256 "87f52ebe004372a67ad6f578eafe6980d4aae6a08d0e3e393cf325f178a64ea8"
     end
     on_arm do
       url "https://github.com/khanhphxm/turntable/releases/download/v#{version}/turntable-#{version}-linux-aarch64.tar.gz"
-      sha256 "87337a4398dd3796724fc1f03675ede2f322d0f62780d2ce1096d0e124dd45b2"
+      sha256 "fca6938a1f76629676a5886f47ac1358fe5da9c83c54ceb44d332470ccb14b66"
     end
   end
 

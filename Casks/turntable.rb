@@ -1,7 +1,7 @@
 # Rendered by render.py into Casks/turntable.rb in khanhphxm/homebrew-tap.
 cask "turntable" do
-  version "0.1.0"
-  sha256 "6346c964f6d26c698740e9f4d77c2865e99dc2b57a7027794eb712acb7b088ec"
+  version "0.1.1"
+  sha256 "76582db2e615da95d95c927b9fc47a789e8ac007429d9826e13704f227e7291d"
 
   url "https://github.com/khanhphxm/turntable/releases/download/v#{version}/turntable-#{version}-macos-universal.zip"
   name "Turntable"
